@@ -9,7 +9,7 @@
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-
+  
   <!-- Custom CSS -->
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -17,7 +17,7 @@
   <!-- Navbar -->
   <nav>
     <div class="nav-container">
-      <div class="logo">PortSite</div>
+      <div class="logo">HelLo</div>
       <ul class="nav-menu">
         <li><a href="#home">HOME</a></li>
         <li><a href="#about">ABOUT</a></li>
@@ -40,6 +40,7 @@
         <h1>HELMER LORENZ ANDALAJAO</h1>
         <p>CS Artificial Intelligence Major</p>
         <div class="social-icons">
+          <a href="https://github.com/helmerlorenz" class="social-icon" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>
           <a href="https://web.facebook.com/HelLo018" class="social-icon" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
           <a href="https://www.instagram.com/helmerlorenzz" class="social-icon" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
           <a href="mailto:helmerlorenzaj@gmail.com" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
@@ -52,8 +53,8 @@
     <section id="about" class="about">
       <div class="container">
         <h2 class="section-title">About Me</h2>
-        <p>I’m a third-year Computer Science major driven by curiosity and a passion for turning ideas into practical solutions. I enjoy exploring new challenges, learning continuously, and finding balance between academics, personal growth, and meaningful experiences. What motivates me most is connecting my skills with real-world impact while staying open, adaptable, and creative.</p>
-        <a href="HelmerLorenzAndalajoCV.pdf" class="download-cv" download>Download CV ⬇</a>
+        <p>I'm a third-year Computer Science major driven by curiosity and a passion for turning ideas into practical solutions. I enjoy exploring new challenges, learning continuously, and finding balance between academics, personal growth, and meaningful experiences. What motivates me most is connecting my skills with real-world impact while staying open, adaptable, and creative.</p>
+        <a href="https://www.canva.com/design/DAGhoLGnZ2k/3melVyHkzT0hVhp-9-pNiQ/edit?utm_content=DAGhoLGnZ2k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="download-cv" download>Download CV ⬇</a>
       </div>
     </section>
 
@@ -64,12 +65,12 @@
         <div class="skills-container">
           <div class="skills-category">
             <h3>Technical Skills</h3>
-            <div class="skill-item"><div class="skill-name"><span>Python (AI/ML, ANN, Automata)</span><span>85%</span></div><div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div></div>
-            <div class="skill-item"><div class="skill-name"><span>Java (OOP, Data Structures)</span><span>80%</span></div><div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div></div>
-            <div class="skill-item"><div class="skill-name"><span>C / C++ (Algorithms, Systems)</span><span>75%</span></div><div class="skill-bar"><div class="skill-progress" data-progress="75"></div></div></div>
-            <div class="skill-item"><div class="skill-name"><span>JavaScript (Web Development)</span><span>70%</span></div><div class="skill-bar"><div class="skill-progress" data-progress="70"></div></div></div>
-            <div class="skill-item"><div class="skill-name"><span>HTML & CSS (Frontend)</span><span>90%</span></div><div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div></div>
-            <div class="skill-item"><div class="skill-name"><span>SQL (Database Management)</span><span>65%</span></div><div class="skill-bar"><div class="skill-progress" data-progress="65"></div></div></div>
+            <div class="skill-item"><div class="skill-name"><span>Python</span><span>85%</span></div><div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div></div>
+            <div class="skill-item"><div class="skill-name"><span>Java</span><span>80%</span></div><div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div></div>
+            <div class="skill-item"><div class="skill-name"><span>C / C++</span><span>75%</span></div><div class="skill-bar"><div class="skill-progress" data-progress="75"></div></div></div>
+            <div class="skill-item"><div class="skill-name"><span>JavaScript</span><span>70%</span></div><div class="skill-bar"><div class="skill-progress" data-progress="70"></div></div></div>
+            <div class="skill-item"><div class="skill-name"><span>HTML & CSS</span><span>90%</span></div><div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div></div>
+            <div class="skill-item"><div class="skill-name"><span>SQL</span><span>65%</span></div><div class="skill-bar"><div class="skill-progress" data-progress="65"></div></div></div>
           </div>
           <div class="skills-category">
             <h3>Professional Skills</h3>
@@ -99,10 +100,60 @@
     <section id="portfolio" class="portfolio">
       <div class="container">
         <h2 class="section-title">Portfolio</h2>
-        <div class="portfolio-grid">
-          <div class="portfolio-item"><h3>PC Build Recommender</h3><p>A smart tool that helps users create the ideal PC build based on their needs. Users can select their use case, budget, preferred brands, and PC size, with the system suggesting optimized, compatible components.</p></div>
-          <div class="portfolio-item"><h3>Brick Smash America</h3><p>An interactive block-breaking game demonstrating collision detection, scoring logic, and game mechanics in an engaging format.</p></div>
-          <div class="portfolio-item"><h3>Car Rental System</h3><p>A management application with booking, tracking, and CRUD functionality, demonstrating database integration and structured programming.</p></div>
+        <div class="portfolio-carousel">
+          <div class="portfolio-track" id="portfolioTrack">
+            <div class="portfolio-item">
+              <img src="PCRECO.png" alt="PC Build Recommender" class="portfolio-img">
+              <h3>PC Build Recommender</h3>
+              <p>A smart tool that helps users create the ideal PC build based on their needs. Users can select their use case, budget, preferred brands, and PC size, with the system suggesting optimized, compatible components.</p>
+              <a href="https://github.com/helmerlorenz/pc-build-recommender" target="_blank" class="btn">GitHub</a>
+              <a href="https://pcbuild-demo.com" target="_blank" class="btn">App Demo</a>
+            </div>
+            <div class="portfolio-item">
+              <img src="BRICKMERICA.png" alt="BRICKMERICA" class="portfolio-img">
+              <h3>Brick Smash America</h3>
+              <p>An interactive block-breaking game demonstrating collision detection, scoring logic, and game mechanics in an engaging format.</p>
+              <a href="https://github.com/helmerlorenz/pc-build-recommender" target="_blank" class="btn">GitHub</a>
+              <a href="https://pcbuild-demo.com" target="_blank" class="btn">App Demo</a>
+              
+            </div>
+            <div class="portfolio-item">
+              <img src="RENTASAKAY.png" alt="RENTASAKAY" class="portfolio-img">
+              <h3>Rentasakay</h3>
+              <p>A management application with booking, tracking, and CRUD functionality, demonstrating database integration and structured programming.</p>
+              <a href="https://github.com/helmerlorenz/pc-build-recommender" target="_blank" class="btn">GitHub</a>
+              <a href="https://pcbuild-demo.com" target="_blank" class="btn">App Demo</a>
+            </div>
+            <div class="portfolio-item">
+              <img src="WVSOLUTIONS.jpg" alt="WVSOLUTIONS" class="portfolio-img">
+              <h3>WVSolutions</h3>
+              <p>A full-stack web application with user authentication, product catalog, shopping cart, and payment integration features.</p>
+              <a href="https://github.com/helmerlorenz/pc-build-recommender" target="_blank" class="btn">GitHub</a>
+              <a href="https://pcbuild-demo.com" target="_blank" class="btn">App Demo</a>
+            </div>
+            <div class="portfolio-item">
+              <img src="CAR.jfif" alt="PC Build Recommender" class="portfolio-img">
+              <h3>Simple Car Recommender System</h3>
+              <p>A responsive weather application that provides real-time weather data, forecasts, and location-based services with an intuitive user interface.</p>
+              <a href="https://github.com/helmerlorenz/pc-build-recommender" target="_blank" class="btn">GitHub</a>
+              <a href="https://pcbuild-demo.com" target="_blank" class="btn">App Demo</a>
+            </div>
+            <div class="portfolio-item">
+              <img src="UNI.png" alt="PC Build Recommender" class="portfolio-img">
+              <h3>Iloilo City University Guide</h3>
+              <p>A website that intorduces you to all of the universities of Iloilo City.</p>
+              <a href="https://github.com/helmerlorenz/pc-build-recommender" target="_blank" class="btn">GitHub</a>
+              <a href="https://pcbuild-demo.com" target="_blank" class="btn">App Demo</a>
+            </div>
+          </div>
+          
+          <!-- Corner Navigation Areas -->
+          <div class="corner-nav corner-nav-left" id="cornerNavLeft">
+            <span class="corner-nav-icon">‹</span>
+          </div>
+          <div class="corner-nav corner-nav-right" id="cornerNavRight">
+            <span class="corner-nav-icon">›</span>
+          </div>
         </div>
       </div>
     </section>
@@ -114,7 +165,7 @@
         <div class="contact-info">
           <div class="contact-item"><i class="fas fa-envelope"></i><p>Email: helmerlorenzaj@gmail.com</p></div>
           <div class="contact-item"><i class="fas fa-phone"></i><p>Phone: +63 998 923 6362</p></div>
-          <div class="contact-item"><i class="fas fa-map-marker-alt"></i><p>Location: Iloilo, Philippines</p></div>
+          <div class="contact-item"><i class="fas fa-map-marker-alt"></i><p>Location: Iloilo City, 5000, Philippines</p></div>
         </div>
       </div>
     </section>
@@ -125,7 +176,7 @@
     <p>© 2025 Helmer Lorenz Andalajao. All Rights Reserved.</p>
   </footer>
 
-  <!-- Custom JS -->
+  <!-- Custom JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>
